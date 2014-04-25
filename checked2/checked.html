@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>cheched</title>
+</head>
+<link rel="stylesheet" type="text/css" href="jchecked.css" />
+<style type="text/css">
+	#wrapper{
+		width: 990px;
+		margin: auto;
+	}
+	.ck-Wrapper input{
+		height: auto;
+	}
+</style>
+<body>
+	<div id="wrapper">
+		<div class="input_box">
+
+			<input id="" type="radio"  class="jchecked" checked="checked" name="1"/>
+			<label for="" >
+				this is a  checked 1
+			</label>
+			<input id="" type="radio"  class="jchecked" checked="checked" name="1"/>
+			<label for="" >
+				this is a  checked 1
+			</label>
+			<input id="" type="radio"  class="jchecked" checked="checked" name="1"/>
+			<label for="" >
+				this is a  checked 1
+			</label>
+			<input id="" type="radio"  class="jchecked" checked="checked" name="1"/>
+			<label for="" >
+				this is a  checked 1
+			</label>
+			<input id="" type="radio"  class="jchecked" checked="checked" name="1"/>
+			<label for="" >
+				this is a  checked 1
+			</label>
+			<input id="" type="radio"  class="jchecked" name="ss"/>
+			<label for="" >
+				this is a  checked 2
+			</label>
+			<input id="" type="checkbox"  class="jchecked checkall" name="3" checked />
+			<label>
+			 checked all
+			</label>
+			<div class="checklistbox">
+				<input id="" type="checkbox"  class="jchecked xx"  />
+				<label for="" >
+					this is a  checked
+				</label>
+				<input id="" type="checkbox"  class="jchecked xx"/>
+				<label for="" >
+					this is a  checked
+				</label>
+				<input id="" type="checkbox"  class="jchecked xx"/>
+				<label for="" >
+					this is a  checked
+				</label>
+	
+			</div>
+
+		</div>
+	</div>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="jchecked.js" ></script>
+	<script type="text/javascript">
+
+		$('.jchecked').jchecked({
+			checkboxChild: $(".xx"),
+			checkboxParent:$('.checkall'),
+			callfunc:function( target ) {
+
+
+				/*$('.checkall').change(function(){
+					var _status = $(this).prop('checked') ;
+
+					if( _status ){
+
+						$('.checklistbox input[type="checkbox"]').prop('checked',true) ;
+
+					}else{
+						 $('.checklistbox input[type="checkbox"]').prop('checked',false) ;
+
+					}
+					
+					
+				});*/
+			}
+		});
+
+		
+
+
+	</script>
+</body>
+</html>

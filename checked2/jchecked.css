@@ -1,0 +1,32 @@
+.ck-Wrapper{
+		overflow: hidden;
+}
+.ck-Wrapper input{
+	height:0;
+	border:0;
+	margin:0 0 -20px 0;
+	padding:0;
+}
+.ck-Wrapper label{
+	padding-left: 20px;
+}
+.ck-Wrapper .label-radio{
+	overflow: hidden;
+	display: inline-block;
+	*display: inline;
+	*zoom:1;
+	background: url(fr_home.png) no-repeat 0 -137px;
+}
+.ck-Wrapper .label-radio.s-ckeckradio{
+	background-position: 0 -200px;
+}
+.ck-Wrapper .label-checkbox{
+	overflow: hidden;
+	display: inline-block;
+	*display: inline;
+	*zoom:1;
+	background: url(fr_public.png) no-repeat -3px -1003px;
+}
+.ck-Wrapper .label-checkbox.s-checkbox{
+	background: url(fr_public.png) no-repeat -3px -1056px
+}
